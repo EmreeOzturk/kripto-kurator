@@ -1,8 +1,17 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Londrina_Outline } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
+import { TracingBeam } from "@/components/ui/tracing-beam";
 
 const inter = Inter({ subsets: ["latin"] });
+export const londrina = Londrina_Outline({
+  subsets: ["latin"],
+  weight: ['400']
+});
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -13,10 +22,21 @@ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
+
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} `}>
+        <BackgroundGradientAnimation >
+          <div className="max-w-screen-xl m-auto z-20">
+            <TracingBeam >
+              <Header />
+              {children}
+              <Footer />
+            </TracingBeam>
+          </div>
+        </BackgroundGradientAnimation>
+      </body>
     </html>
   );
 }
