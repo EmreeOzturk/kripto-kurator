@@ -1,16 +1,10 @@
 import type { Metadata } from "next";
-import { Londrina_Outline, Rhodium_Libre } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 import { TracingBeam } from "@/components/ui/tracing-beam";
-
-const rhodiumType = Rhodium_Libre({ subsets: ["latin"], weight: "400" });
-export const londrina = Londrina_Outline({
-  subsets: ["latin"],
-  weight: ['400']
-});
+import { rhodiumType } from "@/utils/fonts";
 
 
 export const metadata: Metadata = {
