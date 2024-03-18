@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 const SubscribeUs = () => {
     return (
         <motion.div
-            initial={{ opacity: 0, y: 300 }}
+            initial={{ opacity: 0, y: 100 }}
             transition={{ duration: 1 }}
             whileInView={
                 {
