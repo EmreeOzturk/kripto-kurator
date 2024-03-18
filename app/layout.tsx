@@ -26,14 +26,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${rhodiumType.className} `}>
-        <BackgroundGradientAnimation >
+        <BackgroundGradientAnimation
+          gradientBackgroundStart="#000"
+        >
           <div className="max-w-screen-xl m-auto">
             <TracingBeam >
-              <header>
-                <Header />
-              </header>
+              <Header />
               {children}
-              <Footer />
+              {/* <Footer /> */}
             </TracingBeam>
           </div>
         </BackgroundGradientAnimation>
