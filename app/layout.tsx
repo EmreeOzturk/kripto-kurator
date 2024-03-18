@@ -25,6 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="./favicon.ico" sizes="any" />
+      </head>
       <body className={`${rhodiumType.className} `}>
         <BackgroundGradientAnimation
           gradientBackgroundStart="#000"
@@ -33,7 +36,7 @@ export default function RootLayout({
             <TracingBeam >
               <Header />
               {children}
-              {/* <Footer /> */}
+              <Footer />
             </TracingBeam>
           </div>
         </BackgroundGradientAnimation>
