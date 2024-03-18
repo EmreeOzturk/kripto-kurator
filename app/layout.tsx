@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Londrina_Outline, Rhodium_Libre } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header/Header";
-import Footer from "@/components/Footer";
+import Footer from "@/components/footer/Footer";
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 import { TracingBeam } from "@/components/ui/tracing-beam";
 

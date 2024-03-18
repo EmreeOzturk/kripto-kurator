@@ -1,7 +1,6 @@
 "use client"
-
 import Image from 'next/image'
-import StoryImage from '../public/assets/1.png'
+import StoryImage from '@/public/assets/1.png'
 import { motion } from 'framer-motion'
 
 const Story = () => {

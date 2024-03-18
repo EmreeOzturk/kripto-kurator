@@ -1,8 +1,8 @@
 "use client"
 import Image from 'next/image'
-import Book from '../public/assets/book.png'
+import Book from '@/public/assets/book.png'
 import { motion } from 'framer-motion'
-import HeroTitle from './HeroTitle'
+import HeroTitle from '../HeroTitle'
 const Hero = () => {
     return (
         <div className="h-[80vh]">

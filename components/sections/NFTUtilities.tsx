@@ -1,5 +1,4 @@
 "use client"
-
 import { motion } from 'framer-motion'
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 import { items } from "@/consts";

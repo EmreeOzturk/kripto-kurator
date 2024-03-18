@@ -1,11 +1,11 @@
-import Story from "@/components/Story";
-import NFTInfo from "@/components/NFTInfo";
-import NFTUtilities from "@/components/NFTUtilities";
-import Roadmap from "@/components/Roadmap";
-import Partners from "@/components/Partners";
-import Team from "@/components/Team";
-import SubscribeUs from "@/components/SubscribeUs";
-import Hero from "@/components/Hero";
+import Story from "@/components/sections/Story";
+import NFTInfo from "@/components/sections/NFTInfo";
+import NFTUtilities from "@/components/sections/NFTUtilities";
+import Roadmap from "@/components/sections/Roadmap";
+import Partners from "@/components/sections/Partners";
+import Team from "@/components/sections/Team";
+import SubscribeUs from "@/components/sections/SubscribeUs";
+import Hero from "@/components/sections/Hero";
 
 export default function Home() {
 

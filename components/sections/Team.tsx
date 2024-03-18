@@ -1,5 +1,4 @@
 "use client"
-
 import { motion } from 'framer-motion'
 import { Spotlight } from "@/components/ui/Spotlight";
 import Twitter from '@/svg/twitter.svg'

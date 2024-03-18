@@ -1,5 +1,4 @@
 "use client"
-
 import { motion } from 'framer-motion'
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 import { testimonials } from '@/consts'

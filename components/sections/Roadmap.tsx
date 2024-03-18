@@ -1,7 +1,7 @@
 "use client"
 import { motion } from 'framer-motion'
 import { projects } from '@/consts'
-import { HoverEffect } from './ui/card-hover-effect'
+import { HoverEffect } from '../ui/card-hover-effect'
 const Roadmap = () => {
     return (
         <motion.div

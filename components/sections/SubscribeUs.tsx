@@ -1,7 +1,6 @@
 "use client"
-
 import Image from 'next/image'
-import Book from '../public/assets/book.png'
+import Book from '@/public/assets/book.png'
 import { motion } from 'framer-motion'
 const SubscribeUs = () => {
     return (
