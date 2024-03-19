@@ -14,8 +14,8 @@ const Roadmap = () => {
                     y: 0,
                 }
             }
-            className="flex flex-col items-center justify-center mt-20">
-            <h2 className="text-6xl font-bold text-purple-400">
+            className="flex flex-col items-center justify-center mt-20 px-8 md:px-0">
+            <h2 className="text-3xl md:text-6xl font-bold text-purple-400">
                 Roadmap
             </h2>
             <HoverEffect items={projects} />

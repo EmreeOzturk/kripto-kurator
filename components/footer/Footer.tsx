@@ -6,7 +6,7 @@ import SocialLogos from '../header/SocialLogos'
 import Link from 'next/link'
 const Footer = () => {
   return (
-    <div className='flex items-center z-10 relative justify-between w-full overflow-hidden mt-24 pb-10'>
+    <div className='flex flex-col md:flex-row items-center z-10 relative justify-between w-full overflow-hidden mt-24 pb-10 px-8 md:px-0'>
       <div className='flex items-center'>
         <Image src={logo} alt='logo' height={30} sizes='100vw' />
         <h3 className={`${londrina.className} text-2xl ml-2 tracking-wider text-purple-300 `}>

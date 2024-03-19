@@ -15,7 +15,7 @@ const Partners = () => {
             }
             className=" mt-20 rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden">
             <h2 className="mb-5">
-                <span className="text-6xl font-bold text-purple-400 ">
+                <span className="text-3xl md:text-6xl font-bold text-purple-400 ">
                     Our Partners
                 </span>
             </h2>

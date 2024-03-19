@@ -1,8 +1,8 @@
 import Link from 'next/link'
 const HeaderMenu = () => {
   return (
-    <nav className='flex'>
-      <ul className='flex gap-2  text-purple-300 text-lg cursor-pointer'>
+    <nav className='md:flex md:flex-row'>
+      <ul className='flex gap-2 flex-col md:flex-row text-purple-300 text-lg cursor-pointer'>
         <li className='hover:bg-slate-200/20 p-2 flex items-center hover:scale-105 transition-all rounded-xl '>
           <Link href='/'>Collection</Link>
         </li>

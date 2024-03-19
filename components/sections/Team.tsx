@@ -23,10 +23,10 @@ const Team = () => {
                 fill="white"
             />
             <div className=" p-4 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0">
-                <h2 className="text-6xl font-bold text-purple-400 text-center mb-5">
+                <h2 className="text-3xl md:text-6xl font-bold text-purple-400 text-center mb-5">
                     Meet the Team
                 </h2>
-                <p className=" w-3/4 text-white text-center m-auto text-xl tracking-wide mb-10">
+                <p className=" w-3/4 text-white md:text-center m-auto  text-md md:text-xl tracking-wide mb-10">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia nostrum quasi quaerat sint sapiente officiis eos optio doloribus alias, deleniti commodi necessitatibus accusantium voluptates mollitia. Illo rem ullam asperiores commodi.
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia nostrum quasi quaerat sint sapiente officiis eos optio doloribus alias, deleniti commodi necessitatibus accusantium voluptates mollitia. Illo rem ullam asperiores commodi.
                 </p>

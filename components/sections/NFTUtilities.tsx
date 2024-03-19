@@ -14,8 +14,8 @@ const NFTUtilities = () => {
                     y: 0,
                 }
             }
-            className="mt-20 z-10  relative">
-            <h2 className="text-6xl font-bold text-purple-400 text-center mb-10">
+            className="mt-20 z-10 px-8 md:px-0  relative">
+            <h2 className="text-3xl md:text-6xl font-bold text-purple-400 text-center mb-10">
                 NFT Utilities
             </h2>
             <BentoGrid >
