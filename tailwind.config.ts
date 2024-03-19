@@ -75,7 +75,10 @@ const config: Config = {
       },
     },
   },
-  plugins: [addVariablesForColors],
+  plugins: [
+    addVariablesForColors,
+    require("tailwind-scrollbar")({ nocompatible: true }),
+  ],
 };
 export default config;
 

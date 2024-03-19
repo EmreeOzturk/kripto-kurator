@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+.scrollbar-thumb-rounded-full {
+  scrollbar-color: #46206b #9e9e9e;
+  scrollbar-width: thin;
+  border-radius: 10px;
+}

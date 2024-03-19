@@ -18,10 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <head>
-        <link rel="icon" href="./favicon.ico" sizes="any" />
-      </head>
+    <html lang="en" className="scrollbar scroll-smooth scrollbar-thumb-rounded-full scrollbar-track-rounded-full ">
       <body className={`${rhodiumType.className} `}>
         <BackgroundGradientAnimation
           gradientBackgroundStart="#000"
@@ -35,6 +32,6 @@ export default function RootLayout({
           </div>
         </BackgroundGradientAnimation>
       </body>
-    </html>
+    </html >
   );
 }
