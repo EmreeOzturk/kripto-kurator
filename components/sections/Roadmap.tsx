@@ -5,6 +5,7 @@ import { HoverEffect } from '../ui/card-hover-effect'
 const Roadmap = () => {
     return (
         <motion.div
+            id='roadmap'
             initial={{ opacity: 0, y: 300 }}
             transition={{ duration: 1 }}
             whileInView={

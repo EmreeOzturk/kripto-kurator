@@ -5,5 +5,20 @@
 .scrollbar-thumb-rounded-full {
   scrollbar-color: #46206b #9e9e9e;
   scrollbar-width: thin;
-  border-radius: 10px;
+}
+
+html {
+  scroll-snap-align: start;
+  scroll-margin: 6rem;
+}
+
+@keyframes details-show {
+  from {
+    opacity: 0;
+    transform: var(--details-translate, translateY(-0.5em));
+  }
+}
+
+details[open] > *:not(summary) {
+  animation: details-show 450ms ease-in-out;
 }

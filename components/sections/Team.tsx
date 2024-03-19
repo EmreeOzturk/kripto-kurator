@@ -7,6 +7,7 @@ import Avatar from '@/svg/avatar.svg'
 const Team = () => {
     return (
         <motion.div
+            id="team"
             initial={{ opacity: 0, y: 300 }}
             transition={{ duration: 1 }}
             whileInView={
@@ -16,7 +17,6 @@ const Team = () => {
                 }
             }
             className="flex flex-col  items-center justify-center mt-20">
-
             {/* <div className=" w-full rounded-md flex md:items-center md:justify-center bg-black/90 antialiased bg-grid-white/[0.02] relative overflow-hidden"> */}
             <Spotlight
                 className="-top-40 left-0 md:left-60 md:-top-20"
